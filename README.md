@@ -19,7 +19,7 @@ Numerous efforts have been made to apply deep learning in breast cancer screenin
 
 
 Method and Results: 
-Describe your detailed technical approach and innovations. Describe evaluation results (dataset and metric).
+
 
 Discussion and Future Work
-What are the limitations of your work? What are areas for future improvements?
+
