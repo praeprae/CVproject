@@ -1,31 +1,31 @@
 # CVproject
 CV2023 Final Project
 
-Project : 
+◼︎ Project : 
 Explainable AI for BI-RADS Classification in Breast Cancer Screening Using CNN and Grad-CAM
 
-Dataset : 
+◼︎ Dataset : 
 
 This project was conducted using a private dataset, so I cannot share it. However, I recommend using a public dataset such as VinDR-Mammo (link: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?).
 
-Problem Description:
+◼︎ Problem Description:
 
 I aim to develop a BI-RADS classification system for breast cancer screening that achieves high performance while providing explainability.
 
-Input/Output:
+◼︎ Input/Output:
 
 The input to the system will be mammography images, and the output will be BI-RADS classification scores.
 
-Importance and Interest:
+◼︎ Importance and Interest:
 
 This project is important because accurate and explainable BI-RADS classification can significantly improve the early detection and treatment of breast cancer. By using explainable AI, radiologists and clinicians can better understand and trust the model's predictions, leading to more informed decision-making in clinical settings.
 
-Related Works:
+◼︎ Related Works:
 
 Numerous efforts have been made to apply deep learning in breast cancer screening with a focus on explainability. These include approaches for BI-RADS scoring, abnormality detection, and segmentation. Researchers have developed various models to improve the accuracy and interpretability of mammography image analysis, contributing to better diagnostic tools in clinical practice.
 
 
-Method and Results:
+◼︎ Method and Results:
 
 Experiment 1: Utilizing a pretrained ResNet50 as the base model and employing cross-entropy loss as the criterion.
 
@@ -34,7 +34,7 @@ Experiment 2: Utilizing a pretrained ResNet50 with additional fully connected hi
 Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with KL divergence distance between different views of images from the same breast as the criteria.
 
 
-Discussion and Future Work
+◼︎ Discussion and Future Work
 
 1. Utilize larger public datasets.
 2. Implement image augmentation techniques such as adjusting brightness or contrast.
