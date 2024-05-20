@@ -4,9 +4,7 @@ CV2023 Final Project
 ◼︎ Project : 
 Explainable AI for BI-RADS Classification in Breast Cancer Screening Using CNN and Grad-CAM
 
-◼︎ Dataset : 
-
-This project was conducted using a private dataset, so I cannot share it. However, I recommend using a public dataset such as VinDR-Mammo (link: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?).
+◼︎ Dataset : This project was conducted using a private dataset, so I cannot share it. However, I recommend using a public dataset such as VinDR-Mammo (link: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?).
 
 ◼︎ Problem Description:
 
