@@ -3,7 +3,7 @@ CV2023 Final Project
 
 Project : Explainable AI for BI-RADS Classification in Breast Cancer Screening Using CNN and Grad-CAM
 
-Dataset : VinDR-Mammo (link: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?select=metadata.csv)
+Dataset : This project was conducted using a private dataset, so I cannot share it. However, I recommend using a public dataset such as VinDR-Mammo (link: https://www.kaggle.com/datasets/hadighahroudi/vindr-mammo-dataset?).
 
 Problem Description:
 I aim to develop a BI-RADS classification system for breast cancer screening that achieves high performance while providing explainability.
@@ -18,7 +18,10 @@ Related Works:
 Numerous efforts have been made to apply deep learning in breast cancer screening with a focus on explainability. These include approaches for BI-RADS scoring, abnormality detection, and segmentation. Researchers have developed various models to improve the accuracy and interpretability of mammography image analysis, contributing to better diagnostic tools in clinical practice.
 
 
-Method and Results: 
+Method and Results:
+Experiment 1: Utilizing a pretrained ResNet50 as the base model and employing cross-entropy loss as the criterion.
+Experiment 2: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model and employing cross-entropy loss as the criterion.
+Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with KL divergence distance between different views of images from the same breast as the criteria.
 
 
 Discussion and Future Work
