@@ -25,11 +25,11 @@ Numerous efforts have been made to apply deep learning in breast cancer screenin
 
 ◼︎ Method and Results:
 
-Experiment 1: Utilizing a pretrained ResNet50 as the base model and employing cross-entropy loss as the criterion.
+Experiment 1: Utilizing a pretrained ResNet50 as the base model and employing cross-entropy loss as the criterion. This experiment achieved an accuracy of 0.4169.
 
-Experiment 2: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model and employing cross-entropy loss as the criterion.
+Experiment 2: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model and employing cross-entropy loss as the criterion. This experiment achieved an accuracy of 0.4075.
 
-Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with KL divergence distance between different views of images from the same breast as the criteria.
+Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with KL divergence distance between different views of images from the same breast as the criteria. This experiment achieved an accuracy of 0.8683.
 
 
 ◼︎ Discussion and Future Work
