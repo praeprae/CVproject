@@ -29,7 +29,7 @@ Experiment 1: Utilizing a pretrained ResNet50 as the base model and employing cr
 
 Experiment 2: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model and employing cross-entropy loss as the criterion. This experiment achieved an accuracy of 0.4577.
 
-Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with KL divergence distance between different views of images from the same breast as the criteria. This experiment achieved an accuracy of 0.6781.
+Experiment 3: Utilizing a pretrained ResNet50 with additional fully connected hidden layers as the base model, and employing cross-entropy loss along with auxiliary loss between different views of images from the same breast as the criteria. This experiment achieved an accuracy of 0.6781.
 
 
 ◼︎ Discussion and Future Work
